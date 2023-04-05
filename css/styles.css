@@ -25,7 +25,18 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--white);
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title-two {
   font-size: 36px;
   line-height: 1.11;
@@ -64,13 +75,12 @@ body {
 .link {
   text-decoration: none;
 }
-
+img {
+  display: block;
+}
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul {
   margin: 0;
@@ -78,8 +88,11 @@ ul {
 }
 
 /* Header */
-header .container {
+header {
+  margin: 0;
   border-bottom: 1px solid var(--border);
+}
+header .container {
   padding: 24px 0;
 }
 .logo {
@@ -245,13 +258,16 @@ header .container {
 
 /* Portfolio list */
 .portfolio-icon {
-  border: 1px solid var(--border);
   width: 360px;
 }
-.portfolio-icon img {
-  margin-bottom: 32px;
+.description {
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
 }
+
 .portfolio-icon h2 {
+  padding-top: 32px;
   margin-bottom: 8px;
   margin-left: 16px;
 }
