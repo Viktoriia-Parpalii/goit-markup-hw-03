@@ -1,0 +1,165 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  letter-spacing: 0.02em;
+  background-color: var(--white);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.title-two {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.title-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+.item {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Header */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.logo-studio {
+  color: var(--navy-blue);
+}
+.navigation a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--navy-blue);
+}
+.address {
+  font-style: normal;
+}
+.address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+/* Main page */
+
+/* Hero */
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  width: 169px;
+  height: 56px;
+  background: var(--iris);
+  font-weight: 500;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+/* Section 3 */
+.team {
+  background-color: var(--cloud);
+}
+.team-icon {
+  background-color: var(--white);
+}
+
+/* Active */
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--ocean);
+}
+.navigation a:hover,
+.navigation a:focus,
+.address a:hover,
+.address a:focus {
+  color: var(--ocean);
+}
+/* Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer .footer-logo,
+.footer-text {
+  color: var(--cloud);
+}
+
+/* Portfolio */
+
+/* Filter */
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  width: 116px;
+  height: 48px;
+  background-color: var(--cloud);
+  font-weight: 500;
+  color: var(--iris);
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/* Portfolio list */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
