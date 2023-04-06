@@ -133,7 +133,7 @@ header {
   line-height: 1.5;
   color: var(--slate);
 }
-.address ul > li:not(:last-child) {
+.address .list > li:not(:last-child) {
   margin-right: 40px;
 }
 .main-nav {
