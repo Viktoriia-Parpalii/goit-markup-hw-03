@@ -76,6 +76,7 @@ body {
 }
 .link {
   text-decoration: none;
+  display: block;
 }
 img {
   display: block;
@@ -113,7 +114,6 @@ ul {
 .navigation {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .navigation a {
@@ -121,6 +121,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue);
+
+  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -270,7 +272,7 @@ ul {
   padding: 100px 0;
 }
 .footer .logo {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer .footer-logo,
