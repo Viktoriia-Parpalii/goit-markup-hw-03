@@ -103,7 +103,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: flex;
+  display: inline-block;
 }
 .logo-studio {
   color: var(--navy-blue);
