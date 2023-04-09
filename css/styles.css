@@ -291,10 +291,11 @@ ul {
   | Portfolio
   |============================
 */
-/* Filter */
+
 .portfolio {
   padding: 96px 0 120px 0;
 }
+/* Filter */
 .filter-btn {
   padding: 12px 24px;
   min-width: 69px;
