@@ -293,7 +293,7 @@ ul {
 */
 /* Filter */
 .portfolio {
-  padding: 96px 120px;
+  padding: 96px 0 120px 0;
 }
 .filter-btn {
   padding: 12px 24px;
